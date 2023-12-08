@@ -14,10 +14,9 @@ public class Silver_11659 {
         int[] sumList = new int [dataCount+1];
 
         stringTokenizer = new StringTokenizer(bufferedReader.readLine());
-        int sum = 0;
+
         for(int i=1; i<=dataCount; i++) {
             sumList[i] = sumList[i-1] + Integer.parseInt(stringTokenizer.nextToken());
-            System.out.println(sumList[i]);
         }
 
         for(int i=0; i<questionCount; i++) {
